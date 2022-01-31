@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	background-image: url(../img/galaxy.jpg);
+	font-family: 'Comfortaa', cursive;
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #efb206
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+p [for="abtype"]{
+	margin: 2rem 0 0 0;
+}
+fieldset {
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 1rem 0 1rem 0;
+}
+legend {
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin: 0 0 0.5rem 0;
+}
+label{
+	display:block;
+}
+textarea {
+	height: 10rem;
+	width: 90%;
+	padding: 1rem;
+}
+select {
+	font-size: 1rem;
+}
+button {
+	font-size: 1rem;
+	margin: 0.5rem 0 3rem;
+	background-color: #ff661f;
+	border: none;
+	color: white;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+}
+button:hover {
+	cursor: pointer;
+	color: #ff661f;
+	background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
